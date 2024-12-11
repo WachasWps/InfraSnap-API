@@ -1,0 +1,5 @@
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+5
+  http: ^0.15.0
