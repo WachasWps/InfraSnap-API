@@ -63,7 +63,7 @@ def parse_sub_stage_progress(text, stage):
     return sub_stages, sub_stage_name
 
 # Prompt template for analyzing the construction stage
-PROMPT_TEMPLATE = """
+PROMPT_TEMPLATE = """IF IT DETECTS THAT THE PHOTO IS TAKEN OFF A PHOTO, I MEAN IF THE PHOTO UPLOADED IS NOT A PHOTO OF CONSTRUCTION SITE BUT AN IMAGE OF AN IMAGE THEN SHOW ERROR, IF YOU THINK THE IMAGE IS OF A LAPTOP OR A DIGITAL SCREEN THEN SHOW ERROR
 Analyze the uploaded image and determine the current stage of construction. For each stage, provide the following details:
 READ EVERYTHING CALCULATE EVERYTHING THEN START WRITING RESPONSE - give the sub stage name in one word or just the name of sub stage and the overall progress percentage show only the final percentage dont show the calculation here.
 
